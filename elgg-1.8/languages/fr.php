@@ -43,8 +43,8 @@ $french = array(
 	'actionloggedout' => "Désolé, vous ne pouvez pas effectuer cette action sans être connecté.",
 	'actionunauthorized' => "Vous n'êtes pas autorisé à effectuer cette action",
 
-	'InstallationException:SiteNotInstalled' => "XXXXnew on 1.8XXXXUnable to handle this request. This site  is not configured or the database is down.XXXXgoogle:Impossible de traiter cette requête. Ce site n'est pas configuré ou la base de données est en panne.",
-		. ' is not configured or the database is down.',
+	'InstallationException:SiteNotInstalled' => "XXXXnew on 1.8XXXXUnable to handle this request. This site is not configured or the database is down.XXXXgoogle:Impossible de traiter cette requête. Ce site n'est pas configuré ou la base de données est en panne.",
+
 	'InstallationException:MissingLibrary' => "XXXXnew on 1.8XXXXCould not load %sXXXXgoogle:Impossible de charger% s",
 	'InstallationException:CannotLoadSettings' => "XXXXnew on 1.8XXXXElgg could not load the settings file. It does not exist or there is a file permissions issue.XXXXgoogle:Elgg n'a pas pu charger le fichier de paramètres. Il n'existe pas ou il ya un problème de fichier d'autorisations.",
 
@@ -707,8 +707,8 @@ $french = array(
 
 	'admin:appearance:default_widgets' => "XXXXnew on 1.8XXXXDefault WidgetsXXXXgoogle:Widgets par défaut",
 	'admin:default_widgets:unknown_type' => "XXXXnew on 1.8XXXXUnknown widget typeXXXXgoogle:type de widget Inconnue",
-	'admin:default_widgets:instructions' => "XXXXnew on 1.8XXXXAdd, remove, position, and configure default widgets for the selected widget page.  These changes will apply only to new content on the site.XXXXgoogle:Ajoutez, supprimez, la position et configurer les widgets par défaut pour la page widget sélectionnés. Ces changements s'appliqueront uniquement aux nouveaux contenus sur le site.",
-		. '  These changes will apply only to new content on the site.',
+	'admin:default_widgets:instructions' => "XXXXnew on 1.8XXXXAdd, remove, position, and configure default widgets for the selected widget page. These changes will apply only to new content on the site.XXXXgoogle:Ajoutez, supprimez, la position et configurer les widgets par défaut pour la page widget sélectionnés. Ces changements s'appliqueront uniquement aux nouveaux contenus sur le site.",
+
 
 /**
  * User settings

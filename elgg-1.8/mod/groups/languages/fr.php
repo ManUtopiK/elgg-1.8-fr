@@ -94,13 +94,13 @@ $french = array(
 	'groups:access:public' => "Ouvert - N'importe quel utilisateur peut rejoindre le groupe",
 	'groups:access:group' => "XXXXnew on 1.8XXXXGroup members onlyXXXXgoogle:Les membres du groupe ne",
 	'groups:closedgroup' => "Ce groupe est en adhésion privée.",
-	'groups:closedgroup:request' => "Pour demander à être ajouté, cliquer le lien "Demander une adhésion".",
+	'groups:closedgroup:request' => "Pour demander à être ajouté, cliquer le lien 'Demander une adhésion'.",
 	'groups:visibility' => "Qui peut voir ce groupe?",
 
 	/*
 	Group tools
 	*/
-	'groups:enableforum' => "Activer le module "discussion" du groupe",
+	'groups:enableforum' => "Activer le module 'discussion' du groupe",
 	'groups:yes' => "oui",
 	'groups:no' => "non",
 	'groups:lastupdated' => "Dernière mise à jour %s par %s",

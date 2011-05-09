@@ -19,10 +19,10 @@ $french = array(
 
 	'login' => "Connexion",
 	'loginok' => "Vous êtes désormais connecté(e).",
-	'loginerror' => "XXXXchanged on 1.8 (1.7=We couldn't log you in. This may be because you haven't validated your account yet, the details you supplied were incorrect, or you have made too many incorrect login attempts. Make sure your details are correct and please try again.)XXXXWe couldn't log you in. Please check your credentials and try again.XXXXNous n'avons pas pu vous identifier. Cette erreur peut être due, soit, au fait que vous n'avez pas encore validé votre compte, que les informations entrées sont incorrectes ou que vous avez fait trop de tentatives de connexion. Assurez-vous que les informations que vous avez entrées sont correctes et réessayez.",
-	'login:empty' => "XXXXnew on 1.8XXXXUsername and password are required.XXXXgoogle:Nom d'utilisateur et mot de passe sont requis.",
-	'login:baduser' => "XXXXnew on 1.8XXXXUnable to load your user account.XXXXgoogle:Impossible de charger votre compte d'utilisateur.",
-	'auth:nopams' => "XXXXnew on 1.8XXXXInternal error. No user authentication method installed.XXXXgoogle:Erreur interne. Aucune méthode d'authentification des utilisateurs installés.",
+	'loginerror' => "Nous n'avons pas pu vous identifier. Assurez-vous que les informations que vous avez entrées sont correctes et réessayez.",
+	'login:empty' => "Nom d'utilisateur et mot de passe sont requis.",
+	'login:baduser' => "Impossible de charger votre compte d'utilisateur.",
+	'auth:nopams' => "Erreur interne. Aucune méthode d'authentification des utilisateurs installés.",
 
 	'logout' => "Déconnexion",
 	'logoutok' => "Vous avez été déconnecté(e).",
@@ -39,22 +39,22 @@ $french = array(
 	'exception:title' => "XXXXchanged on 1.8 (1.7=Welcome to Elgg.)XXXXFatal Error.XXXXBienvenue sur Elgg.",
 
 	'actionundefined' => "L'action demandée (%s) n'est pas définie par le système.",
-	'actionnotfound' => "XXXXnew on 1.8XXXXThe action file for %s was not found.XXXXgoogle:Le fichier d'action pour %s n'a pas été trouvé.",
+	'actionnotfound' => "Le fichier d'action pour %s n'a pas été trouvé.",
 	'actionloggedout' => "Désolé, vous ne pouvez pas effectuer cette action sans être connecté.",
 	'actionunauthorized' => "Vous n'êtes pas autorisé à effectuer cette action",
 
-	'InstallationException:SiteNotInstalled' => "XXXXnew on 1.8XXXXUnable to handle this request. This site is not configured or the database is down.XXXXgoogle:Impossible de traiter cette requête. Ce site n'est pas configuré ou la base de données est en panne.",
+	'InstallationException:SiteNotInstalled' => "Impossible de traiter cette requête. Ce site n'est pas configuré ou la base de données est en panne.",
 
-	'InstallationException:MissingLibrary' => "XXXXnew on 1.8XXXXCould not load %sXXXXgoogle:Impossible de charger% s",
-	'InstallationException:CannotLoadSettings' => "XXXXnew on 1.8XXXXElgg could not load the settings file. It does not exist or there is a file permissions issue.XXXXgoogle:Elgg n'a pas pu charger le fichier de paramètres. Il n'existe pas ou il ya un problème de fichier d'autorisations.",
+	'InstallationException:MissingLibrary' => "Impossible de charger %s",
+	'InstallationException:CannotLoadSettings' => "Elgg n'a pas pu charger le fichier de paramètres. Il n'existe pas ou il y a un problème de d'autorisations.",
 
 	'SecurityException:Codeblock' => "Accès non autorisé pour la création de bloc de code.",
-	'DatabaseException:WrongCredentials' => "XXXXchanged on 1.8 (1.7=Elgg couldn't connect to the database using the given credentials.)XXXXElgg couldn't connect to the database using the given credentials. Check the settings file.XXXXElgg n'a pas pu se connecter à la base de données avec les informations données.",
+	'DatabaseException:WrongCredentials' => "Elgg n'a pas pu se connecter à la base de données avec les informations données. Vérifiez les paramètres.",
 	'DatabaseException:NoConnect' => "Elgg n'a pas pu sélectionner la base de données '%s', merci de vérifier que la base de données est bien créée et que vous y avez accès.",
 	'SecurityException:FunctionDenied' => "L'accès à la fonction privilégiée '%s' n'est pas autorisé.",
 	'DatabaseException:DBSetupIssues' => "Il y a eu plusieurs problèmes :",
 	'DatabaseException:ScriptNotFound' => "Elgg n'a pas pu trouver le script de la base de données a %s.",
-	'DatabaseException:InvalidQuery' => "XXXXnew on 1.8XXXXInvalid queryXXXXgoogle:Requête non valide",
+	'DatabaseException:InvalidQuery' => "Requête non valide",
 
 	'IOException:FailedToLoadGUID' => "Echec du chargement du nouveau %s avec le GUID:%d",
 	'InvalidParameterException:NonElggObject' => "Passage d'un objet de type non-Elgg vers un constructeur d'objet Elgg !",
@@ -165,7 +165,7 @@ $french = array(
 	'InvalidParameterException:DoesNotBelong' => "N'appartient pas à l'entité.",
 	'InvalidParameterException:DoesNotBelongOrRefer' => "N'appartient pas ou aucune référence à l'entité.",
 	'InvalidParameterException:MissingParameter' => "Paramètre manquant, il faut fournir un GUID.",
-	'InvalidParameterException:LibraryNotRegistered' => "XXXXnew on 1.8XXXX%s is not a registered libraryXXXXgoogle: %s n'est pas une bibliothèque enregistré",
+	'InvalidParameterException:LibraryNotRegistered' => "%s n'est pas une bibliothèque enregistré",
 
 	'APIException:ApiResultUnknown' => "Les résultats de API sont de types inconnus, ceci ne devrait pas se produire.",
 	'ConfigurationException:NoSiteID' => "L'identifiant du site n'a pas été spécifié.",
@@ -219,10 +219,10 @@ $french = array(
 
 	'RegistrationException:EmptyPassword' => "Les champs du mot de passe ne peut pas être vide",
 	'RegistrationException:PasswordMismatch' => "Les mots de passe doivent correspondre",
-	'LoginException:BannedUser' => "XXXXnew on 1.8XXXXYou have been banned from this site and cannot log inXXXXgoogle:Vous avez été banni de ce site et ne peut pas se connecter",
-	'LoginException:UsernameFailure' => "XXXXnew on 1.8XXXXWe could not log you in. Please check your username and password.XXXXgoogle:Nous n'avons pas pu vous connecter! S'il vous plaît vérifier votre nom d'utilisateur et mot de passe.",
-	'LoginException:PasswordFailure' => "XXXXnew on 1.8XXXXWe could not log you in. Please check your username and password.XXXXgoogle:Nous n'avons pas pu vous connecter! S'il vous plaît vérifier votre nom d'utilisateur et mot de passe.",
-	'LoginException:AccountLocked' => "XXXXnew on 1.8XXXXYour account has been locked for too many log in failures.XXXXgoogle:Votre compte a été verrouillé pour connecter un trop grand nombre à des échecs.",
+	'LoginException:BannedUser' => "Vous avez été banni de ce site et ne pouvez plus vous connecter",
+	'LoginException:UsernameFailure' => "Nous n'avons pas pu vous connecter ! Vérifiez votre nom d'utilisateur et mot de passe.",
+	'LoginException:PasswordFailure' => "Nous n'avons pas pu vous connecter ! Vérifiez votre nom d'utilisateur et mot de passe.",
+	'LoginException:AccountLocked' => "Votre compte a été verrouillé suite à un trop grand nombre d'échecs de connexion.",
 
 	'memcache:notinstalled' => "Le module PHP memcache n'est pas installé. Vous devez installer php5-memcache",
 	'memcache:noservers' => "Pas de serveur memcache défini, veuillez renseigner la variable",
@@ -232,7 +232,7 @@ $french = array(
 	'deprecatedfunction' => "Attention : Ce code source utilise une fonction périmée '%s'. Il n'est pas compatible avec cette version de Elgg.",
 
 	'pageownerunavailable' => "Attention : La page de l'utilisateur %d n'est pas accessible.",
-	'viewfailure' => "XXXXnew on 1.8XXXXThere was an internal failure in the view %sXXXXgoogle:Il ya eu une défaillance interne du point de vue de%",
+	'viewfailure' => "Il ya eu une erreur interne dans la vue %s",
 	'changebookmark' => "Veuillez changer votre favori pour cette page.",
 /**
  * API
@@ -247,7 +247,7 @@ $french = array(
 	'name' => "Nom à afficher",
 	'email' => "Adresse e-mail",
 	'username' => "Nom d'utilisateur",
-	'loginusername' => "XXXXnew on 1.8XXXXUsername or emailXXXXgoogle:Nom d'utilisateur ou e-mail",
+	'loginusername' => "Nom d'utilisateur ou e-mail",
 	'password' => "Mot de passe",
 	'passwordagain' => "Confirmation du mot de passe",
 	'admin_option' => "Définir cet utilisateur comme administrateur ?",
@@ -269,11 +269,11 @@ $french = array(
 	'dashboard' => "Tableau de bord",
 	'dashboard:nowidgets' => "XXXXchanged on 1.8 (1.7=Your dashboard is your gateway into the site. Click 'Edit page' to add widgets to keep track of content and your life within the system.)XXXXYour dashboard lets you track the activity and content on this site that matters to you.XXXXVotre tableau de bord est votre page d'accueil sur le site. Cliquez sur 'Modifier cette page' pour ajouter des widgets pour garder un oeil sur le contenu et votre activité sur le site.",
 
-	'widgets:add' => "XXXXchanged on 1.8 (1.7=Add widgets to your page)XXXXAdd widgetsXXXXAjouter des widgets à votre page",
+	'widgets:add' => "Ajouter des widgets",
 	'widgets:add:description' => "XXXXchanged on 1.8 (1.7=Choose the features you want to add to your page by dragging them from the <b>Widget gallery</b> on the right, to any of the three widget areas below, and position them where you would like them to appear. !\n!  !\n! To remove a widget drag it back to the <b>Widget gallery</b>.)XXXXClick on any widget button below to add it to the page.XXXXChoisissez les fonctionnalités à faire apparaître en glissant un élément de <b>la liste de widgets</b> sur la droite, vers l'une des trois zones ci-dessous. Positionnez-les selon vos envies. Pour retirer un widget, glissez le vers <b>la liste de widgets</b>.",
 	'widgets:position:fixed' => "(Position modifiée sur la page)",
 	'widget:unavailable' => "XXXXnew on 1.8XXXXYou have already added this widgetXXXXgoogle:Vous avez déjà ajouté ce widget",
-	'widget:numbertodisplay' => "XXXXnew on 1.8XXXXNumber of items to displayXXXXgoogle:Nombre d'éléments à afficher",
+	'widget:numbertodisplay' => "Nombre d'éléments à afficher ",
 
 	'widget:delete' => "XXXXnew on 1.8XXXXRemove %sXXXXgoogle:Supprimer% s",
 	'widget:edit' => "XXXXnew on 1.8XXXXCustomize this widgetXXXXgoogle:Personnaliser ce widget",
@@ -393,7 +393,7 @@ $french = array(
 /**
  * Feeds
  */
-	'feed:rss' => "XXXXchanged on 1.8 (1.7=Subscribe to feed)XXXXRSS feed for this pageXXXXS'abonner au fil RSS",
+	'feed:rss' => "S'abonner au fil RSS de cette page",
 /**
  * Links
  */
@@ -413,7 +413,7 @@ $french = array(
 	'river:ingroup' => "XXXXnew on 1.8XXXXto the group %sXXXXgoogle:au groupe% s",
 	'river:none' => "XXXXnew on 1.8XXXXNo activityXXXXgoogle:Aucune activité",
 
-	'river:widget:title' => "XXXXnew on 1.8XXXXActivityXXXXgoogle:Activité",
+	'river:widget:title' => "Activité",
 	'river:widget:description' => "XXXXnew on 1.8XXXXDisplay latest activityXXXXgoogle:Activité la plus récente d'affichage",
 	'river:widget:type' => "XXXXnew on 1.8XXXXType of activityXXXXgoogle:Type d'activité",
 	'river:widgets:friends' => "XXXXnew on 1.8XXXXFriends activityXXXXgoogle:activité amis",
@@ -443,7 +443,7 @@ $french = array(
 	'next' => "Suivant",
 	'previous' => "Précédent",
 
-	'viewtype:change' => "XXXXchanged on 1.8 (1.7=Change listing type)XXXXChange list typeXXXXChanger le type de liste",
+	'viewtype:change' => "Changer le type de liste",
 	'viewtype:list' => "Lister les vues",
 	'viewtype:gallery' => "Galerie",
 
@@ -485,7 +485,7 @@ $french = array(
 	'adduser:bad' => "Le nouvel utilisateur ne peut pas être créé.",
 
 	'user:set:name' => "Nom",
-	'user:name:label' => "XXXXchanged on 1.8 (1.7=Your name)XXXXMy display nameXXXXVotre nom",
+	'user:name:label' => "Votre nom à afficher",
 	'user:name:success' => "Votre nom a été changé avec succès.",
 	'user:name:fail' => "Impossible de changer votre nom. Assurez-vous que votre nom n'est pas trop long et essayez à nouveau.",
 
@@ -521,13 +521,13 @@ $french = array(
 /**
  * Administration
  */
-	'menu:page:header:administer' => "XXXXnew on 1.8XXXXAdministerXXXXgoogle:Administrer",
-	'menu:page:header:configure' => "XXXXnew on 1.8XXXXConfigureXXXXgoogle:Configurer",
-	'menu:page:header:develop' => "XXXXnew on 1.8XXXXDevelopXXXXgoogle:Développer",
+	'menu:page:header:administer' => "Administrer",
+	'menu:page:header:configure' => "Configurer",
+	'menu:page:header:develop' => "Développer",
 
-	'admin:view_site' => "XXXXnew on 1.8XXXXView siteXXXXgoogle:Voir le site",
-	'admin:loggedin' => "XXXXnew on 1.8XXXXLogged in as %sXXXXgoogle:Connecté en tant que% s",
-	'admin:menu' => "XXXXnew on 1.8XXXXMenuXXXXgoogle:Menu",
+	'admin:view_site' => "Voir le site",
+	'admin:loggedin' => "Connecté en tant que %s",
+	'admin:menu' => "Menu",
 
 	'admin:configuration:success' => "Vos paramètres ont été sauvegardés.",
 	'admin:configuration:fail' => "Vos paramètres n'ont pas pu être sauvegardés.",
@@ -540,48 +540,48 @@ $french = array(
 	'admin:statistics' => "Statistiques",
 	'admin:statistics:overview' => "XXXXnew on 1.8XXXXOverviewXXXXgoogle:Vue d'ensemble",
 
-	'admin:appearance' => "XXXXnew on 1.8XXXXAppearanceXXXXgoogle:Apparence",
-	'admin:utilities' => "XXXXnew on 1.8XXXXUtilitiesXXXXgoogle:Utilitaires",
+	'admin:appearance' => "Apparence",
+	'admin:utilities' => "Utilitaires",
 
-	'admin:users' => "XXXXnew on 1.8XXXXUsersXXXXgoogle:Utilisateurs",
-	'admin:users:online' => "XXXXnew on 1.8XXXXCurrently OnlineXXXXgoogle:Actuellement en ligne",
+	'admin:users' => "Utilisateurs",
+	'admin:users:online' => "Actuellement en ligne",
 	'admin:users:newest' => "XXXXnew on 1.8XXXXNewestXXXXgoogle:Le plus récent",
-	'admin:users:add' => "XXXXnew on 1.8XXXXAdd New UserXXXXgoogle:Ajouter un nouvel utilisateur",
+	'admin:users:add' => "Ajouter un nouvel utilisateur",
 	'admin:users:description' => "XXXXnew on 1.8XXXXThis admin panel allows you to control user settings for your site. Choose an option below to get started.XXXXgoogle:Ce panneau d'administration vous permet de contrôler les paramètres d'utilisation de votre site. Choisissez une option ci-dessous pour commencer.",
 	'admin:users:adduser:label' => "XXXXnew on 1.8XXXXClick here to add a new user...XXXXgoogle:Cliquez ici pour ajouter un nouvel utilisateur ...",
 	'admin:users:opt:linktext' => "XXXXnew on 1.8XXXXConfigure users...XXXXgoogle:Configurer des utilisateurs ...",
 	'admin:users:opt:description' => "XXXXnew on 1.8XXXXConfigure users and account information. XXXXgoogle:Configurer les utilisateurs et les informations de compte.",
 	'admin:users:find' => "XXXXnew on 1.8XXXXFindXXXXgoogle:Trouver",
 
-	'admin:settings' => "XXXXnew on 1.8XXXXSettingsXXXXgoogle:Paramètres",
-	'admin:settings:basic' => "XXXXnew on 1.8XXXXBasic SettingsXXXXgoogle:Réglages de base",
-	'admin:settings:advanced' => "XXXXnew on 1.8XXXXAdvanced SettingsXXXXgoogle:Paramètres avancés",
+	'admin:settings' => "Paramètres",
+	'admin:settings:basic' => "Réglages de base",
+	'admin:settings:advanced' => "Paramètres avancés",
 	'admin:site:description' => "Ce menu vous permet de définir les paramètres principaux de votre site. Choisissez une option ci-dessous pour commencer.",
 	'admin:site:opt:linktext' => "Configurer le site...",
 	'admin:site:access:warning' => "Changer les paramètres d'accès n'affectera que les permissions de contenu créées dans le futur.",
 
-	'admin:dashboard' => "XXXXnew on 1.8XXXXDashboardXXXXgoogle:Tableau de bord",
-	'admin:widget:online_users' => "XXXXnew on 1.8XXXXOnline usersXXXXgoogle:Utilisateurs en ligne",
-	'admin:widget:online_users:help' => "XXXXnew on 1.8XXXXLists the users currently on the siteXXXXgoogle:Affiche la liste des utilisateurs actuellement sur le site",
-	'admin:widget:new_users' => "XXXXnew on 1.8XXXXNew usersXXXXgoogle:Les nouveaux utilisateurs",
-	'admin:widget:new_users:help' => "XXXXnew on 1.8XXXXLists the newest usersXXXXgoogle:Listes des utilisateurs les plus récents",
-	'admin:widget:content_stats' => "XXXXnew on 1.8XXXXContent statisticsXXXXgoogle:Contenu des statistiques",
+	'admin:dashboard' => "Tableau de bord",
+	'admin:widget:online_users' => "Utilisateurs en ligne",
+	'admin:widget:online_users:help' => "Affiche la liste des utilisateurs actuellement sur le site",
+	'admin:widget:new_users' => "Nouveaux utilisateurs",
+	'admin:widget:new_users:help' => "Affiche la liste des nouveaux utilisateurs",
+	'admin:widget:content_stats' => "Statistiques",
 	'admin:widget:content_stats:help' => "XXXXnew on 1.8XXXXKeep track of the content created by your usersXXXXgoogle:Gardez une trace du contenu créé par les utilisateurs",
-	'widget:content_stats:type' => "XXXXnew on 1.8XXXXContent typeXXXXgoogle:Type de contenu",
-	'widget:content_stats:number' => "XXXXnew on 1.8XXXXNumberXXXXgoogle:Nombre",
+	'widget:content_stats:type' => "Type de contenu",
+	'widget:content_stats:number' => "Nombre",
 
-	'admin:widget:admin_welcome' => "XXXXnew on 1.8XXXXWelcomeXXXXgoogle:Bienvenue",
-	'admin:widget:admin_welcome:help' => "XXXXnew on 1.8XXXXA short introduction to Elgg's admin areaXXXXgoogle:Une courte introduction à la zone admin Elgg",
+	'admin:widget:admin_welcome' => "Bienvenue",
+	'admin:widget:admin_welcome:help' => "Une courte introduction à la zone d'administration de Elgg",
 	'admin:widget:admin_welcome:intro' =>
-'Welcome to Elgg! Right now you are looking at the administration dashboard. It\'s useful for tracking what\'s happening on the site.',
+"Bienvenue sur Elgg ! Vous êts actuellement sur le tableau de bord de l'administration. Il permet de faire le suivi de ce qui se passe sur le site.",
 
 	'admin:widget:admin_welcome:admin_overview' =>
-"Navigation for the administration area is provide by the menu to the right. It is organized into"
-. " three sections:
+"La navigation dans l'administration se fait à l'aide du menu de droite. Il est organisé en"
+. " 3 sections :
 	<dl>
-		<dt>Administer</dt><dd>Everyday tasks like monitoring reported content, checking who is online, and viewing statistics.</dd>
-		<dt>Configure</dt><dd>Occasional tasks like setting the site name or activating a plugin.</dd>
-		<dt>Develop</dt><dd>For developers who are building plugins or designing themes. (Requires a developer plugin.)</dd>
+		<dt>Administrer</dt><dd>Les tâches quotidiennes comme le suivi du contenu signalé, l'apperçu des utilisateurs en ligne, l'affichage des statistiques...</dd>
+		<dt>Configurer</dt><dd>Les tâches occasionnelles comme le paramétrage du nom du site ou l'activation d'un plugin.</dd>
+		<dt>Développer</dt><dd>Pour les développeurs qui créent des plugins ou conçoient des thèmes. (Nécessite des connaissances en programmation.)</dd>
 	</dl>
 	",
 
@@ -617,9 +617,9 @@ $french = array(
 	'plugins:settings:save:fail' => "Il y a eu un problème lors de l'enregistrement des paramètres du plugin %s.",
 	'plugins:usersettings:save:ok' => "Le paramètrage du plugin a été enregistré avec succès.",
 	'plugins:usersettings:save:fail' => "Il y a eu un problème lors de l'enregistrement du paramètrage du plugin %s.",
-	'item:object:plugin' => "XXXXchanged on 1.8 (1.7=Plugin configuration settings)XXXXPluginsXXXXParamètres de configuration du plugin",
+	'item:object:plugin' => "Plugins",
 
-	'admin:plugins' => "XXXXchanged on 1.8 (1.7=Tool Administration)XXXXPluginsXXXXAdministrer les outils",
+	'admin:plugins' => "Administrer les plugins",
 	'admin:plugins:activate_all' => "XXXXnew on 1.8XXXXActivate AllXXXXgoogle:Activer tous les",
 	'admin:plugins:deactivate_all' => "XXXXnew on 1.8XXXXDeactivate AllXXXXgoogle:Désactiver toutes les",
 	'admin:plugins:description' => "Ce menu vous permet de contrôler et de configurer les outils installés sur votre site.",
@@ -647,12 +647,12 @@ $french = array(
 	'admin:plugins:activate:yes' => "XXXXnew on 1.8XXXXActivated %s.XXXXgoogle:Activated% s.",
 	'admin:plugins:activate:no' => "XXXXnew on 1.8XXXXCould not activate %s.XXXXgoogle:Impossible d'activer le% s.",
 	'admin:plugins:categories:all' => "XXXXnew on 1.8XXXXAll categoriesXXXXgoogle:Toutes les catégories",
-	'admin:plugins:plugin_website' => "XXXXnew on 1.8XXXXPlugin websiteXXXXgoogle:Plugin site",
+	'admin:plugins:plugin_website' => "Site du plugin",
 	'admin:plugins:author' => "XXXXnew on 1.8XXXX%sXXXXgoogle:% S",
 	'admin:plugins:version' => "XXXXnew on 1.8XXXXVersion %sXXXXgoogle:La version% s",
-	'admin:plugins:simple' => "XXXXnew on 1.8XXXXSimpleXXXXgoogle:Simple",
-	'admin:plugins:advanced' => "XXXXnew on 1.8XXXXAdvancedXXXXgoogle:Avancée",
-	'admin:plugin_settings' => "XXXXnew on 1.8XXXXPlugin SettingsXXXXgoogle:Plugin Settings",
+	'admin:plugins:simple' => "Simple",
+	'admin:plugins:advanced' => "Avancé",
+	'admin:plugin_settings' => "Paramètres du plugin",
 	'admin:plugins:simple_simple_fail' => "XXXXnew on 1.8XXXXCould not save settings.XXXXgoogle:Impossible d'enregistrer les paramètres.",
 	'admin:plugins:simple_simple_success' => "XXXXnew on 1.8XXXXSettings saved.XXXXgoogle:Paramètres sauvegardés.",
 	'admin:plugins:simple:cannot_activate' => "XXXXnew on 1.8XXXXCannot activate this plugin. Check the advanced plugin admin area for more information.XXXXgoogle:Impossible d'activer ce plugin. Vérifiez la pointe plugin zone d'administration pour plus d'informations.",
@@ -922,11 +922,11 @@ Une fois que vous vous êtes connecté(e), nous vous conseillons fortement de ch
  * System settings
  */
 
-	'installation:sitename' => "XXXXchanged on 1.8 (1.7=The name of your site (eg 'My social networking site'):)XXXXThe name of your site:XXXXNom du site (par exemple 'Mon site de réseau social') :",
-	'installation:sitedescription' => "XXXXchanged on 1.8 (1.7=Short description of your site (optional))XXXXShort description of your site (optional):XXXXBrève description du site (facultatif)",
-	'installation:wwwroot' => "XXXXchanged on 1.8 (1.7=The site URL, followed by a trailing slash:)XXXXThe site URL:XXXXAdresse du site internet :",
-	'installation:path' => "XXXXchanged on 1.8 (1.7=The full path to your site root on your disk, followed by a trailing slash:)XXXXThe full path of the Elgg installation:XXXXChemin physique des fichiers sur le serveur :",
-	'installation:dataroot' => "XXXXchanged on 1.8 (1.7=The full path to the directory where uploaded files will be stored, followed by a trailing slash:)XXXXThe full path of the data directory:XXXXChemin complet où héberger les fichiers uploadés par les utilisateurs :",
+	'installation:sitename' => "Le nom de votre site (par exemple 'Mon site de réseau social') :",
+	'installation:sitedescription' => "Brève description du site (facultatif) :",
+	'installation:wwwroot' => "L'URL du site, suivi de ' / ' :",
+	'installation:path' => "Chemin physique des fichiers sur le serveur, suivi par ' / ' :",
+	'installation:dataroot' => "Chemin complet où seront hébergés les fichiers uploadés par les utilisateurs, suivi de ' / ' :",
 	'installation:dataroot:warning' => "XXXXchanged on 1.8 (1.7=You must create this directory manually. It should sit in a different directory to your Elgg installation.)XXXXYou must create this directory manually. It should be in a different directory to your Elgg installation.XXXXVous devez créer ce répertoire manuellement. Il doit se situer dans un répertoire différent de votre installation de Elgg.",
 	'installation:sitepermissions' => "Les permissions d'accés par défaut :",
 	'installation:language' => "La langue par défaut de votre site :",
@@ -937,8 +937,8 @@ Une fois que vous vous êtes connecté(e), nous vous conseillons fortement de ch
 	'installation:debug:notice' => "Log toutes les erreurs, les avertissements et les avis",
 
 	// Walled Garden support
-	'installation:registration:description' => "XXXXnew on 1.8XXXXUser registration is enabled by default. Turn this off if you do not want new users to be able to register on their own.XXXXgoogle:Enregistrement d'un utilisateur est activée par défaut. Désactivez cette option si vous ne voulez pas de nouveaux utilisateurs à être en mesure de s'inscrire eux-mêmes.",
-	'installation:registration:label' => "XXXXnew on 1.8XXXXAllow new users to registerXXXXgoogle:Permettre aux utilisateurs d'enregistrer de nouveaux",
+	'installation:registration:description' => "L'enregistrement d'un utilisateur est activé par défaut. Désactivez cette option si vous ne voulez pas que de nouveaux utilisateurs soient en mesure de s'inscrire eux-mêmes.",
+	'installation:registration:label' => "Permettre à de nouveaux utilisateurs de s'enregistrer eux-mêmes",
 	'installation:walled_garden:description' => "XXXXnew on 1.8XXXXEnable the site to run as a private network. This will not allow non logged-in users to view any site pages other than those specifically marked as public.XXXXgoogle:Activer le site de fonctionner comme un réseau privé. Cela ne permettra pas non connecté utilisateurs d'afficher les pages du site autres que celles expressément marqué comme public.",
 	'installation:walled_garden:label' => "XXXXnew on 1.8XXXXRestrict pages to logged-in usersXXXXgoogle:Restreindre pages d'utilisateurs enregistrés",
 

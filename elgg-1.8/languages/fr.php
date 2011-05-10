@@ -319,7 +319,7 @@ $french = array(
 	'friends:remove:failure' => "%s n'a pas pu être supprimé(e) de vos contacts. Merci de réessayer ultérieurement.",
 
 	'friends:none' => "Cet utilisateur n'a pas encore ajouté de contact.",
-	'friends:none:you' => "XXXXchanged on 1.8 (1.7=You haven't added anyone as a friend! Search for your interests to begin finding people to follow.)XXXXYou don't have any friends yet.XXXXVous n'avez pas ajouté de contact ! Recherchez des personnes qui partagent vos centre d'intérêt avec le moteur de recherche.",
+	'friends:none:you' => "Vous n'avez pas encore de contact !",
 
 	'friends:none:found' => "Aucun contact n'a été trouvé.",
 
@@ -329,8 +329,8 @@ $french = array(
 	'friends:of:owned' => "Les personnes qui ont %s dans leurs contacts",
 
 	'friends:of' => "Contacts de",
-	'friends:collections' => "XXXXchanged on 1.8 (1.7=Collections of friends)XXXXFriend collectionsXXXXGroupement de contacts",
-	'collections:add' => "XXXXnew on 1.8XXXXNew collectionXXXXgoogle:Nouvelle collection",
+	'friends:collections' => "Groupement de contacts",
+	'collections:add' => "Nouvelle collection",
 	'friends:collections:add' => "Nouveau groupement de contacts",
 	'friends:addfriends' => "XXXXchanged on 1.8 (1.7=Add friends)XXXXSelect friendsXXXXAjouter des contacts",
 	'friends:collectionname' => "Nom du groupement",
@@ -769,7 +769,7 @@ $french = array(
 	'upload' => "Charger",
 	'ban' => "Bannir",
 	'unban' => "Réintégrer",
-	'banned' => "XXXXnew on 1.8XXXXBannedXXXXgoogle:Banni",
+	'banned' => "Banni",
 	'enable' => "Activer",
 	'disable' => "Désactiver",
 	'request' => "Requête",
@@ -786,12 +786,12 @@ $french = array(
 	'send' => "Envoyer",
 	'post' => "Poster",
 	'submit' => "Soumettre",
-	'comment' => "XXXXnew on 1.8XXXXCommentXXXXgoogle:Commentaire",
-	'upgrade' => "XXXXnew on 1.8XXXXUpgradeXXXXgoogle:Mise à niveau",
+	'comment' => "Commentaire",
+	'upgrade' => "Mise à jour",
 
 	'site' => "Site",
-	'activity' => "XXXXnew on 1.8XXXXActivityXXXXgoogle:Activité",
-	'members' => "XXXXnew on 1.8XXXXMembersXXXXgoogle:Membres",
+	'activity' => "Activité",
+	'members' => "Membres",
 
 	'up' => "Monter",
 	'down' => "Descendre",
@@ -834,22 +834,22 @@ $french = array(
 	'tags' => "Tags",
 	'spotlight' => "Projecteur sur",
 	'all' => "Tous",
-	'mine' => "XXXXnew on 1.8XXXXMineXXXXgoogle:Mine",
+	'mine' => "Moi",
 
 	'by' => "par",
 
 	'annotations' => "Annotations",
 	'relationships' => "Relations",
 	'metadata' => "Metadonnées",
-	'tagcloud' => "XXXXnew on 1.8XXXXTag cloudXXXXgoogle:Nuage de tags",
-	'tagcloud:allsitetags' => "XXXXnew on 1.8XXXXAll site tagsXXXXgoogle:Tous les tags site",
+	'tagcloud' => "Nuage de tags",
+	'tagcloud:allsitetags' => "Tous les tags du site",
 
 /**
  * Entity actions
  */
-	'edit:this' => "XXXXnew on 1.8XXXXEdit thisXXXXgoogle:Modifier cette",
-	'delete:this' => "XXXXnew on 1.8XXXXDelete thisXXXXgoogle:Supprimer ce",
-	'comment:this' => "XXXXnew on 1.8XXXXComment on thisXXXXgoogle:Réagir à cette",
+	'edit:this' => "Modifier",
+	'delete:this' => "Supprimer",
+	'comment:this' => "Commenter",
 
 /**
  * Input / output strings
@@ -927,7 +927,7 @@ Une fois que vous vous êtes connecté(e), nous vous conseillons fortement de ch
 	'installation:wwwroot' => "L'URL du site, suivi de ' / ' :",
 	'installation:path' => "Chemin physique des fichiers sur le serveur, suivi par ' / ' :",
 	'installation:dataroot' => "Chemin complet où seront hébergés les fichiers uploadés par les utilisateurs, suivi de ' / ' :",
-	'installation:dataroot:warning' => "XXXXchanged on 1.8 (1.7=You must create this directory manually. It should sit in a different directory to your Elgg installation.)XXXXYou must create this directory manually. It should be in a different directory to your Elgg installation.XXXXVous devez créer ce répertoire manuellement. Il doit se situer dans un répertoire différent de votre installation de Elgg.",
+	'installation:dataroot:warning' => "Vous devez créer ce répertoire manuellement. Il doit se situer dans un répertoire différent de votre installation de Elgg.",
 	'installation:sitepermissions' => "Les permissions d'accés par défaut :",
 	'installation:language' => "La langue par défaut de votre site :",
 	'installation:debug' => "Le mode de débogage permet de mettre en évidence certaines erreurs de fonctionnement, cependant il ralenti l'accès au site, il est à utiliser uniquement en cas de problème :",
@@ -949,7 +949,7 @@ Une fois que vous vous êtes connecté(e), nous vous conseillons fortement de ch
 	'installation:siteemail' => "XXXXchanged on 1.8 (1.7=Site email address (used when sending system emails))XXXXSite email address (used when sending system emails):XXXXL'adresse e-mail de l'administrateur (utilisée lors d'envoi d'e-mail par le système)",
 
 	'installation:disableapi' => "XXXXchanged on 1.8 (1.7=The RESTful API is a flexible and extensible interface that enables applications to use certain Elgg features remotely.)XXXXElgg provides an API for building web services so that remote applications can interact with your site.XXXXL'API RESTful est une interface qui permet à des applications d'utiliser certaines caractéristiques de Elgg à distance.",
-	'installation:disableapi:label' => "XXXXchanged on 1.8 (1.7=Enable the RESTful API)XXXXEnable Elgg's web services APIXXXXActiver l'API RESTful",
+	'installation:disableapi:label' => "Activer les services web Elgg",
 
 	'installation:allow_user_default_access:description' => "Si coché, les utilisateurs pourront modifier leur niveau d'accés par défaut et pourront surpasser le niveau d'accés mis en place par défaut dans le système.",
 	'installation:allow_user_default_access:label' => "Autoriser un niveau d'accés par défaut pour l'utilisateur",
@@ -963,7 +963,7 @@ Une fois que vous vous êtes connecté(e), nous vous conseillons fortement de ch
 	'upgrading' => "Mise à jour en cours",
 	'upgrade:db' => "Votre base de données a été mise à jour.",
 	'upgrade:core' => "Votre installation de Elgg a été mise à jour",
-	'upgrade:unable_to_upgrade' => "XXXXnew on 1.8XXXXUnable to upgrade.XXXXgoogle:Impossible de mettre à niveau.",
+	'upgrade:unable_to_upgrade' => "Impossible de mettre à jour.",
 	'upgrade:unable_to_upgrade_info' =>
 		'This installation cannot be upgraded because legacy views
 		were detected in the Elgg core views directory. These views have been deprecated and need to be
@@ -1045,17 +1045,17 @@ Si vous avez demandé ce changement veuillez cliquer sur le lien ci-dessous, sin
 
 	'riveraction:annotation:generic_comment' => "%s a écrit un commentaire sur %s",
 
-	'generic_comments:add' => "XXXXchanged on 1.8 (1.7=Add a comment)XXXXLeave a commentXXXXAjouter un commentaire",
-	'generic_comments:post' => "XXXXnew on 1.8XXXXPost commentXXXXgoogle:Poster un commentaire",
+	'generic_comments:add' => "Laisser un commentaire",
+	'generic_comments:post' => "Poster un commentaire",
 	'generic_comments:text' => "Commentaire",
-	'generic_comments:latest' => "XXXXnew on 1.8XXXXLatest commentsXXXXgoogle:Derniers commentaires",
+	'generic_comments:latest' => "Derniers commentaires",
 	'generic_comment:posted' => "Votre commentaire a été publié avec succés.",
-	'generic_comment:deleted' => "XXXXchanged on 1.8 (1.7=Your comment was successfully deleted.)XXXXThe comment was successfully deleted.XXXXVotre commentaire a été supprimé avec succés.",
+	'generic_comment:deleted' => "Votre commentaire a été correctement supprimé.",
 	'generic_comment:blank' => "Désolé; vous devez remplir votre commentaire avant de pouvoir l'enregistrer.",
 	'generic_comment:notfound' => "Désolé; l'élément recherché n'a pas été trouvé.",
 	'generic_comment:notdeleted' => "Désolé; le commentaire n'a pu être supprimé.",
 	'generic_comment:failure' => "Une erreur est survenue lors de l'ajout de votre commentaire. Veillez réessayer.",
-	'generic_comment:none' => "XXXXnew on 1.8XXXXNo commentsXXXXgoogle:Pas de commentaires",
+	'generic_comment:none' => "Pas de commentaires",
 
 	'generic_comment:email:subject' => "Vous avez un nouveau commentaire !",
 	'generic_comment:email:body' => "Vous avez un nouveau commentaire sur l'élément '%s' de %s. Voici son contenu :
@@ -1077,7 +1077,7 @@ Ne répondez pas à cet e-mail.",
 /**
  * Entities
  */
-	'byline' => "XXXXnew on 1.8XXXXBy %sXXXXgoogle:En% s",
+	'byline' => "Par %s",
 	'entity:default:strapline' => "Créé le %s par %s",
 	'entity:default:missingsupport:popup' => "Cette entité ne peut pas être affichée correctement. C'est peut-être du à un plugin qui a été supprimé.",
 
@@ -1104,7 +1104,7 @@ Ne répondez pas à cet e-mail.",
  */
 
 	'tag_names:tags' => "Tags",
-	'tags:site_cloud' => "XXXXnew on 1.8XXXXSite Tag CloudXXXXgoogle:Tag Cloud du site",
+	'tags:site_cloud' => "Nuage de tag du site",
 
 /**
  * Javascript

@@ -35,12 +35,12 @@ $french = array(
 	'bookmarks:visit' => "Voir la ressource",
 	'bookmarks:recent' => "Signets récents",
 
-	'bookmarks:river:created' => "XXXXchanged on 1.8 (1.7=%s bookmarked)XXXXbookmarked %sXXXX%s a mis en signet",
+	'bookmarks:river:created' => "%s mis en signet",
 	'bookmarks:river:annotate' => "a posté un commentaire sur ce signet",
 	'bookmarks:river:item' => "un élément",
 	'river:commented:object:bookmarks' => "un signet",
 
-	'item:object:bookmarks' => "XXXXchanged on 1.8 (1.7=Bookmarked items)XXXXBookmarksXXXXEléments mis en signets",
+	'item:object:bookmarks' => "Eléments mis en signets",
 
 	'bookmarks:group' => "Signets du groupe",
 	'bookmarks:enablebookmarks' => "Activer les signets du groupe",
@@ -52,7 +52,7 @@ $french = array(
 	/**
 	 * Widget and bookmarklet
 	 */
-	'bookmarks:widget:description' => "XXXXchanged on 1.8 (1.7=This widget displays your latest bookmarks.)XXXXDisplay your latest bookmarks.XXXXCe widget est conçu pour votre tableau de bord, et vous présentera les éléments les plus récents de votre boîte de réception des signets.",
+	'bookmarks:widget:description' => "Ce widget affiche vos derniers signets.",
 
 	'bookmarks:bookmarklet:description' =>
 			"Le bookmarklet vous permez de partager ce que vous trouvez sur le web avec vos contact, ou pour vous-même. Pour l'utiliser, glissez simplement le boutton ci-dessous dans votre barre de liens de votre navigateur.",

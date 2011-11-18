@@ -7,9 +7,9 @@
 
 	$french = array(
 
-			'admin:utilities:diagnostics' => "XXXXnew on 1.8XXXXSystem diagnosticsXXXXgoogle:Diagnostic du système",
+			'admin:utilities:diagnostics' => "Diagnostic du système",
 			'diagnostics' => "Diagnostics du système",
-			'diagnostics:report' => "XXXXnew on 1.8XXXXDiagnostics ReportXXXXgoogle:Rapport de Diagnostic",
+			'diagnostics:report' => "Rapport de Diagnostic",
 			'diagnostics:unittester' => "Tests d'unités",
 
 			'diagnostics:description' => "Le rapport de diagnostic suivant est utile pour diagnostiquer tout problème avec Elgg, et devrait être inclus dans tout rapport d'erreur que vous rapportez.",
@@ -17,7 +17,7 @@
 
 			'diagnostics:unittester:description' => "Les tests d'unités contrôlent le Core de Elgg en cas d'APIs cassés ou défectueux.",
 			'diagnostics:unittester:debug' => "Le site doit être en mode debug pour lancer les tests d'unités.",
-			'diagnostics:unittester:warning' => "XXXXchanged on 1.8 (1.7=WARNING: These tests can leave behind debugging objects in your database.  DO NOT USE ON A PRODUCTION SITE!)XXXXWARNING: These tests can leave behind debugging objects in your database.<br />DO NOT USE ON A PRODUCTION SITE!XXXXATTENTION: ces tests peuvent endommager votre base de données. NE PAS UTILISER SUR UN SITE EN PRODUCTION!",
+			'diagnostics:unittester:warning' => "ATTENTION: ces tests peuvent laisser des éléments de débogage dans votre base de données.<br /> NE PAS UTILISER SUR UN SITE DE PRODUCTION !",
 
 			'diagnostics:test:executetest' => "Exécuter le test",
 			'diagnostics:test:executeall' => "Tout exécuter",
@@ -32,7 +32,7 @@
 
 			'diagnostics:unittester:report' => "Rapport de test pour %s",
 
-			'diagnostics:download' => "XXXXchanged on 1.8 (1.7=Download .txt)XXXXDownloadXXXXTélécharger .txt",
+			'diagnostics:download' => "Télécharger le fichier '.txt'",
 
 
 			'diagnostics:header' => "========================================================================

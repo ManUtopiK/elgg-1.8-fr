@@ -15,14 +15,14 @@ $french = array(
 	'logrotate:logrotated' => "Rotation du log effectuée\n",
 	'logrotate:lognotrotated' => "Erreur lors de la rotation du log\n",
 	
-	'logrotate:date' => "XXXXnew on 1.8XXXXDelete archived logs older than aXXXXgoogle:Supprimer les journaux archivés plus d'un",
+	'logrotate:date' => "Supprimer les journaux archivés plus ancien qu'",
 
-	'logrotate:week' => "XXXXnew on 1.8XXXXweekXXXXgoogle:semaine",
-	'logrotate:month' => "XXXXnew on 1.8XXXXmonthXXXXgoogle:mois",
-	'logrotate:year' => "XXXXnew on 1.8XXXXyearXXXXgoogle:année",
+	'logrotate:week' => "une semaine",
+	'logrotate:month' => "un mois",
+	'logrotate:year' => "une année",
 		
-	'logrotate:logdeleted' => "XXXXnew on 1.8XXXXLog deleted\nXXXXgoogle:Connectez-vous supprimé",
-	'logrotate:lognotdeleted' => "XXXXnew on 1.8XXXXError deleting log\nXXXXgoogle:Erreur de suppression journal",
+	'logrotate:logdeleted' => "Fichier journal supprimé (fichier log)",
+	'logrotate:lognotdeleted' => "Erreur de suppression du journal (fichier log)",
 );
 
 add_translation("fr", $french);

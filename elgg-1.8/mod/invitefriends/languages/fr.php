@@ -10,7 +10,7 @@ $french = array(
 
 	'friends:invite' => "Inviter des contacts",
 	
-	'invitefriends:registration_disabled' => "XXXXnew on 1.8XXXXNew user registration has been disabled on this site; you are unable to invite new users.XXXXgoogle:Nouvel enregistrement d'utilisateur a été désactivé sur ce site, vous ne parvenez pas à inviter de nouveaux utilisateurs.",
+	'invitefriends:registration_disabled' => "L'enregistrement des nouveaux utilisateurs a été désactivé sur ce site, vous ne pouvez pas inviter de nouveaux utilisateurs.",
 	
 	'invitefriends:introduction' => "Pour inviter des contacts à vous rejoindre sur ce réseau, entrez leurs adresses mail ci-dessous (une par ligne) :",
 	'invitefriends:message' => "Ecrivez un message qu'ils vont recevoir avec votre invitation :",

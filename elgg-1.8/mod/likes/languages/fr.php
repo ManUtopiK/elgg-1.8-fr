@@ -2,6 +2,24 @@
 /**
  * Likes English language file
  */
-$french = array(
-	'likes:this' => "XXXXnew on 1.8XXXXliked thisXXXXgoogle:aimé ce",	'likes:deleted' => "XXXXnew on 1.8XXXXYour like has been removedXXXXgoogle:Votre similaire a été retiré",	'likes:see' => "XXXXnew on 1.8XXXXSee who liked thisXXXXgoogle:Voir qui ont aimé cette",	'likes:remove' => "XXXXnew on 1.8XXXXUnlike thisXXXXgoogle:Contrairement à ce",	'likes:notdeleted' => "XXXXnew on 1.8XXXXThere was a problem removing your likeXXXXgoogle:Il y avait un problème, comme la suppression de votre",	'likes:likes' => "XXXXnew on 1.8XXXXYou now like this itemXXXXgoogle:Vous aimez cet article maintenant",	'likes:failure' => "XXXXnew on 1.8XXXXThere was a problem liking this itemXXXXgoogle:Il y avait un problème goût de cet ouvrage",	'likes:alreadyliked' => "XXXXnew on 1.8XXXXYou have already liked this itemXXXXgoogle:Vous avez déjà aimé cet article",	'likes:notfound' => "XXXXnew on 1.8XXXXThe item you are trying to like cannot be foundXXXXgoogle:L'ordre du jour que vous essayez d'aimer ne peut être trouvé",	'likes:likethis' => "XXXXnew on 1.8XXXXLike thisXXXXgoogle:Comme cette",	'likes:userlikedthis' => "XXXXnew on 1.8XXXX%s likeXXXXgoogle:% S comme",	'likes:userslikedthis' => "XXXXnew on 1.8XXXX%s likesXXXXgoogle:% s aime",	'likes:river:annotate' => "XXXXnew on 1.8XXXXlikesXXXXgoogle:aime",	'likes:email:body' => "XXXXnew on 1.8XXXX%s liked %sXXXXgoogle:% S% s aimé",	'likes:email:subject' => "XXXXnew on 1.8XXXXA user liked one of your objectsXXXXgoogle:Un utilisateur aimé l'un de vos objets",	'river:likes' => "XXXXnew on 1.8XXXXlikes %s %sXXXXgoogle:aime% s% s",);
-add_translation("fr", $french);
+
+$french = array(
+	'likes:this' => "a aimé çà",
+	'likes:deleted' => "Votre appréciation a été retiré",
+	'likes:see' => "Voir ceux qui ont aimé çà",
+	'likes:remove' => "N'aime pas çà",
+	'likes:notdeleted' => "Il y a eu un problème, lors de la suppresion d'appréciation",
+	'likes:likes' => "Vous aimez çà maintenant",
+	'likes:failure' => "Il y a eu un problème d'appréciation sur cet élément",
+	'likes:alreadyliked' => "Vous avez déjà porté votre appréciation çà",
+	'likes:notfound' => "L'élément que vous essayez d'apprécier ne peut être trouvé",
+	'likes:likethis' => "Aime çà",
+	'likes:userlikedthis' => "%s aime",
+	'likes:userslikedthis' => "%s aiment",
+	'likes:river:annotate' => "aime",
+	'likes:email:body' => "%s a aimé %s",
+	'likes:email:subject' => "Un utilisateur a aimé quelque chose",
+	'river:likes' => "aiment %s %s",
+);
+
+add_translation("fr", $french);

@@ -20,14 +20,14 @@ $french = array(
 	'messageboard:replyon' => "réponse sur",
 	'messageboard:history' => "historique",
 
-	'messageboard:owner' => "XXXXnew on 1.8XXXX%s's message boardXXXXgoogle:forum% s de",
-	'messageboard:owner_history' => "XXXXnew on 1.8XXXX%s's posts on %s's message boardXXXXgoogle:% s de messages sur le forum de l% de",
+	'messageboard:owner' => "forum de %s",
+	'messageboard:owner_history' => "%s a envoyé un message sur le forum de %s",
 
 	/**
 	 * Message board widget river
 	 */
-	'messageboard:river:added' => "XXXXchanged on 1.8 (1.7=%s posted on)XXXXposted onXXXX%s a écrit sur ",
-	'messageboard:river:user' => "XXXXnew on 1.8XXXX%s'sXXXXgoogle:% S de",
+	'messageboard:river:added' => "a écrit sur",
+	'messageboard:river:user' => "de %s",
 	'messageboard:river:messageboard' => "forum",
 
 
@@ -43,21 +43,7 @@ $french = array(
 	 */
 
 	'messageboard:email:subject' => "Vous avez un nouveau message sur le forum !",
-	'messageboard:email:body' => "XXXXchanged on 1.8 (1.7=You have a new message board comment from %s. It reads: !\n!  !\n! 			 !\n! %s !\n!  !\n!  !\n! To view your message board comments, click here: !\n!  !\n! 	%s !\n!  !\n! To view %s's profile, click here: !\n!  !\n! 	%s !\n!  !\n! You cannot reply to this email.)XXXXYou have a new message board comment from %s. It reads:
-
-
-%s
-
-
-To view your message board comments, click here:
-
-	%s
-
-To view %s's profile, click here:
-
-	%s
-
-You cannot reply to this email.XXXXVous avez reçu un nouveau message de %s sur votre forum. Il est écrit :
+	'messageboard:email:body' => "Vous avez reçu un nouveau message de %s sur votre forum. Il est écrit :
 
 
 %s

@@ -7,7 +7,7 @@
  */
 
 $french = array(
-	'admin:users:unvalidated' => "XXXXnew on 1.8XXXXUnvalidatedXXXXgoogle:Non validées",
+	'admin:users:unvalidated' => "Invalidées",
 	
 	'email:validate:subject' => "%s veuillez confirmer votre adresse de courriel !",
 	'email:validate:body' => "Bonjour %s,
@@ -27,11 +27,11 @@ Si vous ne pouvez pas cliquer sur le lien, copier et coller le dans votre naviga
 	'email:confirm:fail' => "Votre adresse de courriel n'a pu être vérifiée...",
 
 	'uservalidationbyemail:registerok' => "Pour activer votre compte, veuillez confirmer votre adresse e-mail en cliquant sur le lien qui vient de vous être envoyé (si vous ne recevez rien, veuillez vérifier votre dossier Spam).",
-	'uservalidationbyemail:login:fail' => "XXXXnew on 1.8XXXXYour account is not validated so the log in attempt failed. Another validation email has been sent.XXXXgoogle:Votre compte n'est pas validé si la tentative de connexion a échoué. Un autre e-mail de validation a été envoyé.",
+	'uservalidationbyemail:login:fail' => "Votre compte n'est pas validé, par conséquent la tentative de connexion a échoué. Un autre e-mail de validation a été envoyé.",
 
 	'uservalidationbyemail:admin:no_unvalidated_users' => "Aucun utilisateurs non-validés.",
 
-	'uservalidationbyemail:admin:unvalidated' => "XXXXchanged on 1.8 (1.7=Unvalidated users)XXXXUnvalidatedXXXXUtilisateurs non-validés",
+	'uservalidationbyemail:admin:unvalidated' => "Invalidés",
 	'uservalidationbyemail:admin:user_created' => "%s enregistré",
 	'uservalidationbyemail:admin:resend_validation' => "Renvoyer la validation",
 	'uservalidationbyemail:admin:validate' => "Valider",

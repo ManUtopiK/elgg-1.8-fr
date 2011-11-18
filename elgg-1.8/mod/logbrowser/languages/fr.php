@@ -6,7 +6,7 @@
  */
 
 $french = array(
-	'admin:utilities:logbrowser' => "XXXXnew on 1.8XXXXLog browserXXXXgoogle:Connectez-navigateur",
+	'admin:utilities:logbrowser' => "Connection aux journaux",
 	'logbrowser' => "Visualiseur de journal",
 	'logbrowser:browse' => "Visualiser les journaux système",
 	'logbrowser:search' => "Affiner les résultats",
@@ -16,12 +16,12 @@ $french = array(
 
 	'logbrowser:explore' => "Explorer le journal",
 
-	'logbrowser:date' => "XXXXnew on 1.8XXXXDate and timeXXXXgoogle:Date et heure",
-	'logbrowser:user:name' => "XXXXnew on 1.8XXXXUserXXXXgoogle:Utilisateur",
-	'logbrowser:user:guid' => "XXXXnew on 1.8XXXXUser GUIDXXXXgoogle:GUID de l'utilisateur",
-	'logbrowser:object' => "XXXXnew on 1.8XXXXObject typeXXXXgoogle:Type d'objet",
-	'logbrowser:object:guid' => "XXXXnew on 1.8XXXXObject GUIDXXXXgoogle:Objet GUID",
-	'logbrowser:action' => "XXXXnew on 1.8XXXXActionXXXXgoogle:Action",
+	'logbrowser:date' => "Date et heure",
+	'logbrowser:user:name' => "Utilisateur",
+	'logbrowser:user:guid' => "Guide de l'utilisateur",
+	'logbrowser:object' => "Type de l'objet",
+	'logbrowser:object:guid' => "Aide à propos des Objets",
+	'logbrowser:action' => "Action",
 );
 
 add_translation("fr", $french);

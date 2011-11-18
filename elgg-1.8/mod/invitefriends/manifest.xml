@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
-	<name>Inviter Amis</name>
+	<name>Inviter des amis (Invite Friends)</name>
 	<author>Core developers</author>
 	<version>1.8</version>
 	<category>bundled</category>
 	<category>social</category>
-	<description>Inviter des amis par invatation email.</description>
+	<description>Inviter des amis par invitation mail.</description>
 	<website>http://www.elgg.org/</website>
 	<copyright>See COPYRIGHT.txt</copyright>
 	<license>GNU Public License version 2</license>

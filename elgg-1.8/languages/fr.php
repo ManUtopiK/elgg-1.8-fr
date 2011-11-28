@@ -579,7 +579,7 @@ $french = array(
 "La navigation dans l'administration se fait à l'aide du menu de droite. Il est organisé en"
 . " 3 sections :
 	<dl>
-		<dt>Administrer</dt><dd>Les tâches quotidiennes comme le suivi du contenu signalé, l'apperçu des utilisateurs en ligne, l'affichage des statistiques...</dd>
+		<dt>Administrer</dt><dd>Les tâches quotidiennes comme le suivi du contenu signalé, l'aperçu des utilisateurs en ligne, l'affichage des statistiques...</dd>
 		<dt>Configurer</dt><dd>Les tâches occasionnelles comme le paramétrage du nom du site ou l'activation d'un plugin.</dd>
 		<dt>Développer</dt><dd>Pour les développeurs qui créent des plugins ou conçoient des thèmes. (Nécessite des connaissances en programmation.)</dd>
 	</dl>
@@ -924,7 +924,7 @@ Une fois que vous vous êtes connecté(e), nous vous conseillons fortement de ch
 	'installation:sitename' => "Le nom de votre site (par exemple 'Mon site de réseau social') :",
 	'installation:sitedescription' => "Brève description du site (facultatif) :",
 	'installation:wwwroot' => "L'URL du site, suivi de ' / ' :",
-	'installation:path' => "Chemin physique des fichiers sur le serveur, suivi par ' / ' :",
+	'installation:path' => "Chemin physique des fichiers sur le serveur, suivi de ' / ' :",
 	'installation:dataroot' => "Chemin complet où seront hébergés les fichiers uploadés par les utilisateurs, suivi de ' / ' :",
 	'installation:dataroot:warning' => "Vous devez créer ce répertoire manuellement. Il doit se situer dans un répertoire différent de votre installation de Elgg.",
 	'installation:sitepermissions' => "Les permissions d'accés par défaut :",

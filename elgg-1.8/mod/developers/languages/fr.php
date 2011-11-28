@@ -7,7 +7,7 @@
 $french = array(
 	// menu
 	'admin:developers' => "Les développeurs",
-	'admin:developers:settings' => "Paramètres développeur",
+	'admin:developers:settings' => "Paramètres développeurs",
 	'admin:developers:preview' => "Prévisualisation thème",
 
 	// settings
@@ -20,7 +20,7 @@ $french = array(
 	'developers:label:display_errors' => "Affichage des erreurs PHP fatales",
 	'developers:help:display_errors' => "Par défaut, le fichier .htaccess d'Elgg supprime l'affichage des erreurs fatales.",
 
-	'developers:debug:off' => "Off",
+	'developers:debug:off' => "Arrêt",
 	'developers:debug:error' => "Erreur",
 	'developers:debug:warning' => "Avertissement",
 	'developers:debug:notice' => "Avis",

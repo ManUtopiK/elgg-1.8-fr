@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
-	<name>Le Fil RSS (The Wire)</name>
+	<name>Le Microblog (The Wire)</name>
 	<author>JHU/APL and core developers</author>
 	<version>1.8</version>
 	<category>bundled</category>
 	<category>content</category>
-	<description>Fil RSS sur Elgg (aussi appelé Microblogging)</description>
+	<description>Le Microblog sur Elgg, permet d'envoyer des messages courts (140 caractères) (comme Twitter...)</description>
 	<website>http://www.elgg.org/</website>
 	<copyright>See COPYRIGHT.txt</copyright>
 	<license>GNU Public License version 2</license>
